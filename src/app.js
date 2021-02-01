@@ -7,6 +7,7 @@ const { diskStorage } = require('multer');
 
 //Initializations
 const app = express();
+require('./database');
 
 //Settings
 app.set('port', process.env.PORT || 3000);
